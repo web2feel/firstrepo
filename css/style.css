@@ -1,0 +1,176 @@
+body{
+    background: url(../images/bg.png);
+    font-family: 'Lato';
+}
+.bt_hidden{ opacity:0;}
+.bt_visible{ opacity:1;}
+#header h1 a{
+    font-size:56px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-decoration: none; 
+    color:#000; 
+}
+#header h2{
+    font-size:21px;
+    font-weight: 100;
+    margin-top: 0px;
+}
+.search-inwpin{
+     height: 45px;
+    background:#fff;
+    margin-top:40px;
+}
+.search-form{
+    width: 240px;
+    height:35px;
+    float: left;
+    border: none!important;
+    padding: 5px 0px ;
+    margin: 5px 0 0 10px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.search-submit{
+    width: 30px;
+    float: right;
+    margin: 13px 0px 0 0px;
+    background:url(../images/search-icon.png)no-repeat;
+    border: none!important;
+    padding: 5px;
+}
+#menu-primary{
+    background: #41A561;
+    margin-top: 30px;
+}
+.navbar-collapse ul{font-size: 14px;font-weight:300;text-transform: uppercase;padding: 5px 0px;}
+.navbar-collapse ul.nav.navbar-nav li a{color: #fff;}
+.navbar-collapse ul.nav.navbar-nav li.active a{background: none!important;}
+.navbar-nav li.dropdown.open ul.dropdown-menu li a{color:#404040;}
+
+.sub-menu {
+    background: none repeat scroll 0 0 #358e52;
+    display: none;
+    font-size: 12px;
+    left: -1px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50px;
+    width: 200px;
+    z-index: 10000;
+    margin-left:10px; 
+}
+.navbar-collapse li.dropdown:hover > ul{
+    display:block;.
+    animation: 0.3s ease-in 0s normal none 1 fadeIn;
+}
+.navbar-collapse li.dropdown:hover > ul{
+    display:block;
+animation: 0.3s ease-in 0s normal none 1 fadeIn;
+}
+.nav.navbar-nav li.dropdown ul.sub-menu li{
+    padding: 10px 10px;
+    list-style: none;
+    border-bottom:1px solid #41A561;
+    border-top:1px solid #296d3f;
+}
+.nav.navbar-nav li.dropdown ul.sub-menu li:last-child{
+
+    border-bottom: none!important;
+}
+.nav.navbar-nav li.dropdown ul.sub-menu li:first-child{
+    border-top:none!important;
+
+}
+.navbar-nav li.dropdown ul.sub-menu li a{
+    text-decoration: none;
+
+}
+
+#callout{
+    padding:20px 40px;
+    margin-top: 30px;
+    background: #fff;
+    text-align: center;
+}		
+#callout h4{
+    font-size: 32px;
+    font-weight: 300;
+    color: #545454;
+    text-transform: uppercase;
+    background: url("../images/line.png") no-repeat scroll center bottom ;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+#callout h4 span{
+    font-weight: 400;
+}
+#callout p{ 
+    font-size:24px;
+    font-weight:200;
+    line-height:150%;
+}
+
+.portfolioFilter{
+    padding: 40px 10px;
+    text-align: center;
+}
+.portfolioFilter a{
+    background: #fff;
+    padding: 10px 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #41a561;
+}
+.portfolioFilter a.current{
+    background:#41a561;
+    color: #fff;
+}
+.isotope-item img{
+    width:234px!important;
+}
+.row h5.main-inhead{
+    text-align: center;
+    font-weight: 100;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin: 50px 0px 20px 0px;
+    background: url("../images/line2.png") no-repeat scroll center bottom ;
+    padding-bottom: 10px;
+}
+
+
+ /*Woo Commerce Styles*/
+#carousel.products li.product{width:272px;float: left;background: #fff;margin-right:28px;text-align: center;list-style: none;position: relative;}
+#carousel {overflow: hidden;}
+#wrap h5{text-align: center;font-weight: 100;font-size: 38px;text-transform: uppercase;margin: 50px 0px 20px 0px;background: url("../images/line2.png") no-repeat scroll center bottom ;padding-bottom: 10px;}
+.caroufredsel_wrapper ul#carousel.products{padding-left: 0px!important;}
+.product a span.onsale{position: absolute;background: #41A561;padding:10px;border-radius: 50%;width: 30px;height: 30px;
+						color: #fff;left: 230px;top:20px;}
+.product a img{margin-top: 12px;}
+.product a h3{padding: 20px 12px;background: #41A561;font-size: 18px; color: #fff;font-weight: 400;text-align: left;}
+.product a.button{float: left;padding-left: 12px;}
+.product a.perma{float: right;padding-right: 12px;margin-bottom: 20px;}
+.product a span.price{float: left;padding-left: 12px;}
+.product a div.star-rating{float: right;padding-right: 12px;color: }
+.star-rating img{margin-top: 0px!important;}
+.product a.button img{margin-top: 30px!important;}
+.product a.perma img{margin-top: 25px!important;}
+.product a span.price ins span.amount{color: #41A561;text-decoration: none;}
+.product a span.price del span.amount{color: #41A561;text-decoration: none;}
+.product a.button{color: #3a3a3a;text-transform: uppercase;}
+.product a.perma{color: #3a3a3a;}
+.fa.fa-external-link.fa-lg{margin-bottom: 10px;margin-top: 30px;}
+.fa.fa-shopping-cart.fa-lg{margin-bottom: 10px;margin-top: 30px;}
+ /*Woo Commerce Styles end here*/
+
+
+
+
+
+
+
+
+
+

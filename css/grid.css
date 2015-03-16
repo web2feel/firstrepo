@@ -1,0 +1,53 @@
+@media only screen and (min-width: 1200px) {	    
+.alpha{padding-left: 0 !important;margin-left: 0 !important;}.omega{padding-right: 0 !important;margin-right: 0 !important;}
+.beta{padding: 0 !important;margin: 0 !important;}
+    .search-inwpin{width: 300px;float:right;}
+ .caption{bottom:25px;padding: 20px 30px; position: absolute;left: 0;right: 0;}	
+.caption h3{color: #fff;font-size: 38px;font-weight: 200;text-transform: uppercase;text-align: center;}
+.caption h3 span{font-weight: 700;}
+.caption p{font-size: 26px; color: rgb( 255, 255, 255 );line-height: 2.154;font-weight: 200;text-align: center;}   
+	.caroufredsel_wrapper{width:1170px !important;}
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {	
+.alpha{padding-left: 0 !important;margin-left: 0 !important;}.omega{padding-right: 0 !important;margin-right: 0 !important;}
+.beta{padding: 0 !important;margin: 0 !important;}
+    .search-inwpin{width: 300px;float:right;}
+
+   		.caption{ bottom:25px;padding: 20px 30px; position: absolute;left: 0;right: 0;}	
+	 	.caption h3{color: #fff;font-size:34px;font-weight: 200;text-transform: uppercase;text-align: center;}
+	 		.caption h3 span{font-weight: 700;}
+	 	.caption p{font-size:22px;color: rgb( 255, 255, 255 );line-height: 2.154;font-weight: 200; text-align: center;}  
+	.caroufredsel_wrapper{width:970px !important;}
+    .isotope-item img {width: 242px !important;}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {	
+.alpha{padding-left: 0 !important;margin-left: 0 !important;}.omega{padding-right: 0 !important;margin-right: 0 !important;}
+.beta{padding: 0 !important;margin: 0 !important;}
+    .search-form{width:175px;}
+		.caption{ bottom:25px;padding: 20px 30px; position: absolute;left: 0;right: 0;}	
+	 	.caption h3{color: #fff;font-size:28px;font-weight: 200;text-transform: uppercase;text-align: center;}
+	 		.caption h3 span{font-weight: 700;}
+	 	.caption p{font-size:18px;color: rgb( 255, 255, 255 );line-height: 2.154;font-weight: 200; text-align: center;} 
+    .isotope-item img {width: 250px !important;}
+}
+
+@media only screen and(max-width:767px) {	
+    .head h1{text-align: center!important;}
+    .head h2{text-align: center!important;}
+    #header{text-align: center;}
+    .portfolioContainer{text-align: center;}
+}
+
+@media only screen and(max-width:320px) {	
+    .search-inwpin {width: 300px!importnat;}
+    .portfolioContainer{text-align: center;}
+    
+}
+
+
+
+
+
